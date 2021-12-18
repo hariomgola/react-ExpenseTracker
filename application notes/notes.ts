@@ -67,9 +67,9 @@
   - Learn how wrapper function changes we have use the same in card component
   - Learn concept of props.children and how it assigned.
   - Learn concept of changing the children class css from wrapper class.
-
- # JSX code.
-  - 
+  
+-----------------------------------------------------------------------------------------------------------------
+ # User Interaction & States
 
 
 
