@@ -67,16 +67,33 @@
   - Learn how wrapper function changes we have use the same in card component
   - Learn concept of props.children and how it assigned.
   - Learn concept of changing the children class css from wrapper class.
-  
+
 -----------------------------------------------------------------------------------------------------------------
  # User Interaction & States
+  - Handling Events
+  - Update the UI and working with 'state'
+  - A closer look at components & states
 
+ # Checking or Reading data on button click
+  - Now we have a native access to dom element of a button
+  - check on google for 'html button elements'
+  - To check events in react we have a event listner by using 'onClick'
+  - Also use below code `<button onClick={()=>{console.console.log('clicked');}}>Change Title</button>`
+  - We can also code function to execeuted when clicked `<button onClick={clickHandler}>Change Title</button>`.
+  - Only need to call this function without giving circular brackets.
+  - If we change clickHandler to clickHandler() then javaScript will execute this function when the button is parsed.
 
+ # State in React
+  - useState is the function in react library to use state in react.
+  - useState is called as reactHook.
+  - All hooks is called inside the react component function only.
+  - hooks not be called inside the nested function
+  - useState return a function with first value as its value itself, and second is the updated function.
 
-
-
-
-
+ # useState
+  - Its registered in the form of saperate states.
+  - When ever the state change only particular component and only that specific instance where this component is used. 
+  - React will re-eveluate it.
 
 
 
