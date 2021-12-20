@@ -95,9 +95,45 @@
   - When ever the state change only particular component and only that specific instance where this component is used. 
   - React will re-eveluate it.
 
+ # Listening to user inputs
+  - For listening the user event's we can add the event listner to it.
+  - we can get the things done by using onChange event.
+  - useState hook to store the value when the component is refreshed or re-evaluated.
 
+ # Using one state for many states
+  - passing as object in useState to use multiple states
 
+ # MultiState - approach
+  setUserInputs({
+      ...userInputs,
+      enteredTitle: event.target.value,
+    });
+ # Multistate Function - approach (Most suitable)
+  setUserInputs((prevState) => {
+      return { ...prevState, enteredTitle: event.target.value };
+    });
+  
+ # Adding two way binding
+  - use Value in HTML tag and assign back to its value.
 
+ # passing Data from parents to child component.
+  - first define a function on parent.
+  - then pass the parent function as a prop to child function
+  - call the function which we are receiving as a prop
+  - Passing argument in a parent function to get the data to parent (child  ->  Parent)
+
+ # Lifting state-up
+  - Lifting state up is termed as passing a data from child to parent component.
+
+ # Controlled vs uncontrolled component's
+  - uncontrolled component is termed as stateless component. 
+  - Controlled component is termed aas statefull component.
+
+ # Imp Notes
+  - React hook is used to convert stateless component into statefull component.
+  - When some data changes. React hook or usestate need to be used to refresh the particular component.
+
+-----------------------------------------------------------------------------------------------------------------
 
 
 
