@@ -135,7 +135,23 @@
 
 -----------------------------------------------------------------------------------------------------------------
 
+ # React Modules
 
+ # Keys
+  - Keys is the special concepts in react if we are rendering an array of list in ui.
+  - Without providing the keys if we go to chrome inspect tab we can see that after every update element refreshes.
+  - With unique key added to rendered element now react can easily add element without refreshing other element.
+
+ # Rendering Conditional Items
+  - We can use conditional if statement in our JSX code.
+  - condition ? true : false
+  - Also use below tricky opertor
+  - condition && true - Here && will end the opertaor by checing only if condition
+  - With the help of && operator we can spilt the single ternary operator into if else saperation code.
+  - In React Also we can store JSX content directly to any variable
+
+ # Returning Conditional Statement
+  - We can also return jsx code from component by using the conditional returned statement.
 
 
 
