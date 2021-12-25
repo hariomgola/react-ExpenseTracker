@@ -153,6 +153,9 @@
  # Returning Conditional Statement
   - We can also return jsx code from component by using the conditional returned statement.
 
+ # Styling component
+  - We can also style on dynamic basis using {{}} operator
+
 
 
 
