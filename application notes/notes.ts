@@ -136,6 +136,9 @@
 -----------------------------------------------------------------------------------------------------------------
 
  # React Modules
+  - Before going to react module just check turnary statement and if single line statement
+  - condition ? true : false  (if-else block)
+  - condition && true   (if statement only)
 
  # Keys
   - Keys is the special concepts in react if we are rendering an array of list in ui.
@@ -160,12 +163,35 @@
 
  # Styling React component
   - Conditional and Dynamic styles.
-  - Style components (most popular library)
+  - Styled components (most popular library) (Important)
   - Css modules
 
+ # Conditional style (Inline css)
+  - Use with state management
+  - style = {{color:!isValid ? 'red' : 'black'}}
 
+ # Conditional style (Dynaic css by changing styles)
+  - use by changing the class name in file.
+  - className = {`form-control ${!isvalid ? 'invalid': ''}`}
 
+ # Styled components (https://styled-components.com/)
+  - for using style component library we need to install it.
+  - npm install --save styled-components
+  - const Button = styled.button``  (Important)
+  - we can direct use css inside ``
+  - for sudo selector use &: symbol (Important)
+  - The button which we return in component by default applies all the props you might be passing to own button component.
 
+ # Using media Query inside the styled component
+  - @media (min-width: 768){
+    // directly write the css inside this within styled component
+  }
+
+ # CSS module
+  - CSS module help in scoping the styles so that it cannot go outside and scope.
+  - change simple .css file to `.module.css`
+  - import styles from './button.module.css'
+  - change class name to that - className = {style.button}
 
 
 
