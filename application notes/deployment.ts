@@ -8,6 +8,11 @@
   - Add the deployment dependencies under scripts
           |>_ "predeploy": "npm run build"
           |>_ "deploy": "gh-pages -d build"
+  - Run below command to deploy the code
+          |>_ npm run deploy
+
+  - If giving any error run the below command
+          |>_  npm install --save gh-pages
 
 
 
