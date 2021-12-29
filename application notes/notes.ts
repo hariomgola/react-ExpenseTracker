@@ -193,6 +193,15 @@
   - import styles from './button.module.css'
   - change class name to that - className = {style.button}
 
+ # CSS module (Dynamic modules)
+  - Use if condition in classname
+  - `${styles['form-control'] ${!isValid && styles.invalid}}`
+
+-----------------------------------------------------------------------------------------------------------------
+
+ # Debugging React Application
+  - Debug react app
+  - finding and fixing error
 
 
 
