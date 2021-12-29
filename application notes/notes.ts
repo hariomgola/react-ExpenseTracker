@@ -156,6 +156,13 @@
  # Styling component
   - We can also style on dynamic basis using {{}} operator
 
+-----------------------------------------------------------------------------------------------------------------
+
+ # Styling React component
+  - Conditional and Dynamic styles.
+  - Style components (most popular library)
+  - Css modules
+
 
 
 
