@@ -1,4 +1,4 @@
-.expenses {
+/* .expenses {
   padding: 1rem;
   background-color: rgb(31, 31, 31);
   margin: 2rem auto;
@@ -6,7 +6,7 @@
   max-width: 95%;
   border-radius: 12px;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
-}
+} */
 /* Expense item */
 .expense-item {
   display: flex;
@@ -16,7 +16,9 @@
   padding: 0.5rem;
   margin: 1rem 0;
   /* border-radius: 12px; */
-  background-color: #4b4b4b;
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
 }
 
 .expense-item__description {
@@ -41,7 +43,9 @@
   font-size: 1rem;
   font-weight: bold;
   color: white;
-  background-color: #40005d;
+  background: #f7971e;
+  background: -webkit-linear-gradient(to right, #ffd200, #f7971e);
+  background: linear-gradient(to right, #ffd200, #f7971e);
   border: 1px solid white;
   padding: 0.5rem;
   border-radius: 12px;
@@ -65,7 +69,7 @@
   }
 }
 /*Expense date*/
-.expense-date {
+/* .expense-date {
   display: flex;
   flex-direction: column;
   width: 5.5rem;
@@ -90,4 +94,4 @@
 .expense-date__day {
   font-size: 1.5rem;
   font-weight: bold;
-}
+} */

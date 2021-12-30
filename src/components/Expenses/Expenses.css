@@ -1,6 +1,8 @@
 .expenses {
   padding: 1rem;
-  background-color: rgb(31, 31, 31);
+  background: #fceabb;
+  background: -webkit-linear-gradient(to right, #f8b500, #fceabb);
+  background: linear-gradient(to right, #f8b500, #fceabb);
   margin: 2rem auto;
   width: 50rem;
   max-width: 95%;

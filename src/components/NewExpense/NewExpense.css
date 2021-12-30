@@ -1,12 +1,14 @@
 .new-expense {
-  background-color: #a892ee;
+  background: #fceabb;
+  background: -webkit-linear-gradient(to right, #f8b500, #fceabb);
+  background: linear-gradient(to right, #f8b500, #fceabb);
   padding: 1rem;
   margin: 2rem auto;
   width: 50rem;
   max-width: 95%;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 8px #00000040;
 }
 
 .new-expense button {
@@ -14,7 +16,10 @@
   cursor: pointer;
   padding: 1rem 2rem;
   border: 1px solid #40005d;
-  background-color: #40005d;
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
+
   color: white;
   border-radius: 12px;
   margin-right: 1rem;

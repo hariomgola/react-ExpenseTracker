@@ -203,6 +203,24 @@
   - Debug react app
   - finding and fixing error
 
+ # Understanding React Error.
+  - Always use the jsx encloused in one element.
+
+ # Debugging react
+  - check on chrome source tab for debugging
+
+ # Working with break point.
+  - Pause Script Execution - (f8)
+  - Step over - (f10)
+  - Step in function - (f11)
+  - Step out from function - (shift + f11)
+  - Step (f9)
+  - deactivate break point - (ctrl +f8)
+
+ # Using React developer tool
+  - Install React developer Tools from chrome web store
+  - check on component on chrome developer tool.
+
 
 
 

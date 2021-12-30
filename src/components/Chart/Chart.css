@@ -1,7 +1,9 @@
 .chart {
   padding: 1rem;
   border-radius: 12px;
-  background-color: #f8dfff;
+  background: #fc5c7d;
+  background: -webkit-linear-gradient(to right, #6a82fb, #fc5c7d);
+  background: linear-gradient(to right, #6a82fb, #fc5c7d);
   text-align: center;
   display: flex;
   justify-content: space-around;
